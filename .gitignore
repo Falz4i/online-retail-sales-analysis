@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.pytest_cache/
+
+# Data dapat dibuat ulang dari sumber UCI dengan pipeline proyek.
+data/raw/
+data/processed/
+
+# Pengaturan lokal, kredensial, dan log runtime.
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.aws/
+*.log
+.DS_Store
+Thumbs.db

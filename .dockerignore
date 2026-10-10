@@ -1,0 +1,12 @@
+.git/
+.agents/
+.codex/
+.aws/
+.venv/
+**/__pycache__/
+**/.ipynb_checkpoints/
+data/
+reports/
+*.log
+.env
+.env.*
